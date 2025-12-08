@@ -35,7 +35,7 @@ const routes = [
         path: 'usuarios',
         name: 'usuarios',
         component: UserView
-      }, // ⬅️ AQUÍ FALTABA ESTA COMA
+      }, 
       {
         path: 'catalogo',
         name: 'catalogo',
@@ -50,7 +50,7 @@ const router = createRouter({
   routes
 });
 
-// Navigation guard (EXIGENCIA PDF 5.2)
+
 router.beforeEach((to, from, next) => {
   const isAuthenticated = localStorage.getItem('authToken');
   
