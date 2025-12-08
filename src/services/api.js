@@ -1,6 +1,5 @@
 import axios from 'axios';
 
-// ⭐⭐ URL DE TU MOCKAPI ⭐⭐
 const MOCKAPI_URL = 'https://6935db68fa8e704dafbf13da.mockapi.io';
 
 console.log('🚀 [API] Configurando MockAPI');
