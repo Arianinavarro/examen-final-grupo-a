@@ -67,40 +67,6 @@
 
 ---
 
-##  *Cómo está organizado nuestro proyecto*
-
-
-examen-final-grupo-a/
-├── src/
-│   ├── components/           # Componentes que usamos en varias partes
-│   │   ├── NavbarComponent.vue      # La barra de navegación de arriba
-│   │   ├── SidebarComponent.vue     # El menú lateral
-│   │   ├── FooterComponent.vue      # El pie de página
-│   │   ├── ProductCardComponent.vue # Tarjeta para cada producto
-│   │   └── UserCardComponent.vue    # Tarjeta para cada usuario
-│   ├── views/                # Las páginas principales
-│   │   ├── LoginView.vue            # Página de inicio de sesión
-│   │   ├── DashboardView.vue        # Layout principal con sidebar
-│   │   ├── DashboardHome.vue        # Inicio del dashboard
-│   │   ├── ProductView.vue          # Página para gestionar productos
-│   │   ├── UserView.vue             # Página para gestionar usuarios
-│   │   └── CatalogoView.vue         # Catálogo para ver productos (solo lectura)
-│   ├── router/              # Configuración de rutas
-│   │   └── index.js                 # Definimos todas las rutas aquí
-│   ├── services/            # Servicios para comunicarnos con la API
-│   │   ├── api.js                   # Configuración de Axios
-│   │   ├── userService.js           # Funciones para usuarios
-│   │   └── productService.js        # Funciones para productos
-│   ├── assets/              # Imágenes y recursos
-│   │   └── logo.png                 # Logo de nuestra repostería
-│   ├── App.vue              # Componente principal
-│   └── main.js              # Punto de entrada
-├── public/                  # Archivos públicos
-├── package.json             # Dependencias y scripts
-└── README.md                # Este archivo
-
-
----
 
 ##  *Cómo funciona la aplicación*
 
