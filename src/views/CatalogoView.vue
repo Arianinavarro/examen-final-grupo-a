@@ -144,4 +144,4 @@ export default {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
 }
-</style>
+</style> 
