@@ -1,6 +1,6 @@
 <template>
   <div class="home-container">
-    <!-- Imagen centrada -->
+    
     <div class="text-center mb-4">
       <img 
         src="https://proingra.com/wp-content/uploads/2023/10/sabor-dulzura-pasteleria-pop-mart-blindbox-fondo-limpio-ia-generativa-scaled.jpg" 
@@ -9,7 +9,7 @@
       >
     </div>
 
-    <!-- Descripción de la repostería -->
+    
     <div class="description-container">
       <h2 class="text-purple text-center mb-3">
         Bienvenidos a Repostería ARI-ANA
@@ -35,7 +35,7 @@
       </div>
     </div>
 
-    <!-- Acciones rápidas -->
+    
     <div class="quick-actions mt-5">
       <h4 class="text-purple text-center mb-4">
         Explora Nuestra Repostería

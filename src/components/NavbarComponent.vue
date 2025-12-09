@@ -38,4 +38,4 @@ export default {
 .bg-purple {
   background-color: #680a47 !important;
 }
-</style>
+</style> 
