@@ -41,7 +41,6 @@
             <i class="bi bi-people-fill me-2"></i>Gestión Usuarios
           </router-link>
         </li>
-        <!-- IMPORTANTE: Botón de logout con ícono (EXIGENCIA PDF 5.1) -->
         <li class="nav-item mt-4">
           <a class="nav-link text-danger" href="#" @click="logout">
             <i class="bi bi-box-arrow-right me-2"></i>Cerrar Sesión
@@ -57,7 +56,6 @@ export default {
   name: 'SidebarComponent',
   methods: {
     logout() {
-      // Eliminar token de autenticación (EXIGENCIA PDF 5.1)
       localStorage.removeItem('authToken');
       localStorage.removeItem('user');
       this.$router.push('/login');
