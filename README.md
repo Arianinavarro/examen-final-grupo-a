@@ -1,4 +1,4 @@
-# 🎂 **Repostería ARI-ANA **
+# 🎂 **Repostería ARI-ANA**
 
 ##  *Descripción del Proyecto*
  Creamos un sistema web completo para gestionar una repostería, donde puedes administrar usuarios, productos y ver el catálogo. Todo hecho con Vue.js 3, Bootstrap 5 y usando MockAPI para simular un backend real.
