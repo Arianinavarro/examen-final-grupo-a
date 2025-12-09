@@ -297,4 +297,4 @@ La aplicación es fácil de usar, se ve bien en cualquier dispositivo y sigue bu
 
 *Desarrollado por Ariani Navarro y Ana Jaime*  
 *Examen Final - Desarrollo de Aplicaciones Web*  
-*Diciembre 2025*
+*Diciembre 2025*   
