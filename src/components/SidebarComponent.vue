@@ -91,4 +91,4 @@ export default {
 .text-purple {
   color: #680a47;
 }
-</style>
+</style> 
