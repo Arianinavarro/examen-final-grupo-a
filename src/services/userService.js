@@ -9,7 +9,7 @@ const userService = {
   },
 
   async getUserById(id) {
-    const response = await mockApi.get(/usuarios/${id});
+    const response = await mockApi.get(`/usuarios/${id}`);
     return response.data;
   },
 
@@ -22,14 +22,15 @@ const userService = {
 
   async updateUser(id, userData) {
     console.log('✏ [UserService] Actualizando usuario ID:', id);
-    const response = await mockApi.put(/usuarios/${id}, userData);
+    const response = await mockApi.put(`/usuarios/${id}`, userData);
+//                CORRECTO: backticks ↑                   ↑ // <-- CORREGIDO
     console.log('✅ [UserService] Usuario actualizado');
     return response.data;
   },
 
   async deleteUser(id) {
     console.log('🗑 [UserService] Eliminando usuario ID:', id);
-    const response = await mockApi.delete(/usuarios/${id});
+   const response = await mockApi.delete(`/usuarios/${id}`);
     console.log('✅ [UserService] Usuario eliminado');
     return response.data;
   },
